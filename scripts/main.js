@@ -1,6 +1,6 @@
 const myImage = document.querySelector("img");
 
-myImage.onclick = () => {
+/*myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "images/ryusaru_logo.png") {
     myImage.setAttribute("src", "images/ryusaru_logo2.png");
@@ -11,7 +11,7 @@ myImage.onclick = () => {
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
-function setUserName() {
+/*function setUserName() {
     const myName = prompt("Please enter your name.");
     if (!myName) {
       setUserName();
@@ -30,3 +30,4 @@ function setUserName() {
   myButton.onclick = () => {
     setUserName();
   };
+  */
