@@ -112,4 +112,11 @@ li {
   font-size: 25px;
   line-height: 1;
 }
+
+.footer {
+  background-color: #14094d;
+  color: #e6e0bb;
+  text-align: left;
+  padding: 5px;
+}
   
