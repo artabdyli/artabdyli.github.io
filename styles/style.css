@@ -45,7 +45,7 @@ html {
 }
 .button {
   background-color: #14094d; /* Green */
-  border: none;
+  border: 2px solid #e6e0bb;
   color: e6e0bb;
   padding: 16px 32px;
   text-align: center;
@@ -56,14 +56,7 @@ html {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-
-.button1 {
-  background-color: #14094d; 
-  color: black; 
-  border: 2px solid #e6e0bb;
-}
-
-.button1:hover {
+.button:hover {
   background-color: #e6e0bb;
   color: #14094d;
 }
